@@ -9,3 +9,4 @@
 ## 词向量
 
 - one-hot
+- tf-idf
