@@ -44,3 +44,9 @@
 > 最终源文件、地址链接文件、标题文件、内容文件一一对应。词表文件（term_list）作为信息检索的核心文件。得到的TF-IDF向量和源文件一一对应，大约4.9G左右。
 >
 > porter_stemmer.py为官网下载的代码，用于词干提取。
+
+### 数据地址
+
+> 链接：https://pan.baidu.com/s/119kYlRgFGuWszcpg5zSmaw 
+> 提取码：duse 
+> 复制这段内容后打开百度网盘手机App，操作更方便哦
