@@ -6,7 +6,11 @@
 - ID-CNN-CRF
 - BERT-Bi-LSTM-CRF
 
-## 词向量
+## 语言模型
 
 - one-hot
 - tf-idf
+
+## 文本分类
+
+- Naive Bayesian
