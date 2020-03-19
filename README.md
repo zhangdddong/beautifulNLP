@@ -14,3 +14,7 @@
 ## 文本分类
 
 - Naive Bayesian
+
+## 文本摘要
+
+- TextRank
