@@ -15,12 +15,13 @@
 | :-------------: | :------: |
 |     one-hot     |    -     |
 | tf-idf-sentence |    -     |
+|    word2vec     |  Gensim  |
 
 ### 文本分类
 
-|    模型名称    | 使用框架 |
-| :------------: | :------: |
-| Naive Bayesian |  skit-   |
+|    模型名称    |   使用框架   |
+| :------------: | :----------: |
+| Naive Bayesian | Scikit-Learn |
 
 ### 文本摘要
 
