@@ -16,6 +16,7 @@
 |     one-hot     |    -     |
 | tf-idf-sentence |    -     |
 |    word2vec     |  Gensim  |
+|      glove      | 官方源码 |
 
 ### 文本分类
 
