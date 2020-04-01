@@ -11,12 +11,13 @@
 
 ### 语言模型
 
-|    模型名称     | 使用框架 |
-| :-------------: | :------: |
-|     one-hot     |    -     |
-| tf-idf-sentence |    -     |
-|    word2vec     |  Gensim  |
-|      glove      | 官方源码 |
+|    模型名称     |                     使用框架                     |
+| :-------------: | :----------------------------------------------: |
+|     one-hot     |                        -                         |
+| tf-idf-sentence |                        -                         |
+|    word2vec     |                      Gensim                      |
+|      glove      | [官方源码](https://github.com/stanfordnlp/GloVe) |
+|     n-gram      |                        -                         |
 
 ### 文本分类
 
@@ -33,3 +34,4 @@
 ### 资料整理
 
 - 停用词文件
+- 逻辑回归
