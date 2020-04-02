@@ -7,7 +7,7 @@ from collections import OrderedDict
 import json
 import tensorflow as tf
 from conlleval import return_report
-from data_utils improt load_word2vec
+from data_utils import load_word2vec
 
 
 def get_logger(log_file):
