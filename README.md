@@ -24,6 +24,7 @@
 |    模型名称    |   使用框架   |
 | :------------: | :----------: |
 | Naive Bayesian | Scikit-Learn |
+| Bert-baseline  |   Pytorch    |
 
 ### 文本摘要
 
