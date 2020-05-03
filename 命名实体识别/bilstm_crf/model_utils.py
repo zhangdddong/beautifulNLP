@@ -7,7 +7,6 @@ from collections import OrderedDict
 import json
 import tensorflow as tf
 from conlleval import return_report
-from data_utils import load_word2vec
 
 
 def get_logger(log_file):
@@ -114,7 +113,7 @@ def create(sess, Model, ckpt_path, load_word2vec, config, id_to_word, logger):
     :param sess:
     :param Model:
     :param ckpt_path:
-    :param load_word2vec:
+    :param load_word2vec: 函数
     :param config:
     :param id_to_word:
     :param logger:
@@ -153,6 +152,7 @@ def test_ner(results, path):
         f.writelines(to_write)
     eval_lines = return_report(output_file)
     return eval_lines
+
 
 def save_model(sess, model, path, logger):
     """

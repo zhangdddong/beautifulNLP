@@ -21,10 +21,11 @@
 
 ### 文本分类
 
-|    模型名称    |   使用框架   |
-| :------------: | :----------: |
-| Naive Bayesian | Scikit-Learn |
-| Bert-baseline  |   Pytorch    |
+|       模型名称        |   使用框架    |
+| :-------------------: | :-----------: |
+| Naive Bayesian 二分类 | Scikit-Learn  |
+|      RNN 二分类       | TensorFlow1.x |
+|     Bert-baseline     |    Pytorch    |
 
 ### 文本摘要
 

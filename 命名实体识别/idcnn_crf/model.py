@@ -97,7 +97,7 @@ class Model(object):
         :return: [batch_size, sentence_length, word_embedding + seg_embedding]
         """
         embedding = []
-        with tf.variable_scope('word_embedding' if not name else name), tf.device('/cpu:0'):
+        with tf.variable_scope('word_embedding' if not name else name):
             self.word_lookup = tf.get_variable(
                 name='word_embedding',
                 shape=[self.num_words, self.word_dim],
@@ -106,7 +106,7 @@ class Model(object):
             embedding.append(tf.nn.embedding_lookup(self.word_lookup, word_inputs))
 
             if config['seg_dim']:
-                with tf.variable_scope('seg_embedding'), tf.device('/cpu:0'):
+                with tf.variable_scope('seg_embedding'):
                     self.seg_lookup = tf.get_variable(
                         name='seg_embedding',
                         shape=[self.num_segs, self.seg_dim],

@@ -175,7 +175,8 @@ def augment_with_pretrained(dico_train, emb_path, test_word):
     pretrained = set([line.rsplit()[0].strip() for line in open(emb_path, encoding='UTF-8')])
     if test_word is None:
         for word in pretrained:
-            dico_train[word] = 0
+            if word not in dico_train:
+                dico_train[word] = 0
     else:
         for word in test_word:
             if any(x in pretrained for x in [word, word.lower()]) and word not in dico_train:

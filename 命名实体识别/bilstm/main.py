@@ -134,7 +134,7 @@ def train():
     logger = model_utils.get_logger(log_path)
     model_utils.print_config(config, logger)
 
-    tf_config = tf.ConfigProto()
+    tf_config = tf.ConfigProto(allow_soft_placement=True)
     tf_config.gpu_options.allow_growth = True
 
     step_per_epoch = train_manager.len_data
