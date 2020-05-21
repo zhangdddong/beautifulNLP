@@ -1,0 +1,6 @@
+model_checkpoint_path: "bilstm_crf.ckpt-2"
+all_model_checkpoint_paths: "bilstm_crf.ckpt-1"
+all_model_checkpoint_paths: "bilstm_crf.ckpt-2"
+all_model_checkpoint_timestamps: 1590055206.0199878
+all_model_checkpoint_timestamps: 1590055250.9560633
+last_preserved_timestamp: 1590055189.4069903

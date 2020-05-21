@@ -4,7 +4,9 @@
 |     模型名称     |   使用框架    |
 | :--------------: | :-----------: |
 |     Bi-LSTM      | TensorFlow1.x |
+|     Bi-LSTM      | TensorFlow2.x |
 |   Bi-LSTM-CRF    | TensorFlow1.x |
+|   Bi-LSTM-CRF    | TensorFlow2.x |
 |    ID-CNN-CRF    | TensorFlow1.x |
 | BERT-Bi-LSTM-CRF | TensorFlow1.x |
 |       HMM        |       -       |
