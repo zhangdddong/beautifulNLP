@@ -2,10 +2,9 @@
 
 ### 下载bert模型
 
-> 链接：https://pan.baidu.com/s/1b4bA2SGF5bURo19fHt_sKA 
-> 提取码：25se
+> Bert模型放在bert_pretrain目录下，数据集放在THUCNews下
 >
-> 放在bert_pretrain目录下
+> 下载链接放在主页的百度网盘链接中。
 
 ### Bert的简单模型
 

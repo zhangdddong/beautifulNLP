@@ -41,3 +41,10 @@
 
 - 停用词文件
 - 逻辑回归
+
+### 数据集百度网盘链接
+
+> 对应目录相同
+>
+> 链接：https://pan.baidu.com/s/1TJXNq2dv2JmWNFC1T7IRBQ 
+> 提取码：khgp

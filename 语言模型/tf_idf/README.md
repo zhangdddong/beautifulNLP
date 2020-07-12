@@ -47,8 +47,4 @@
 
 ### 数据地址
 
-> 链接：https://pan.baidu.com/s/119kYlRgFGuWszcpg5zSmaw 
-> 提取码：duse 
-> 复制这段内容后打开百度网盘手机App，操作更方便哦
->
-> 将下载的数据放在`data`目录下
+> 将下载的数据放在`data`目录下，下载地址在主页的百度网盘链接中。
